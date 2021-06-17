@@ -1,0 +1,20 @@
+Python Assignment 2
+What will be the output of the following code:
+1.	not(x>y or y>z) where x=29.0, y=13,z=2
+2.	4L * len(“problem1”) / (len(“python”)%3) +2.0
+3.	-4 * -2 **3 +len(str(6))
+4.	str((5<10) and (10<5) or (3<18) and not 8<18)
+5.	bool(5-len(‘five’))
+6.	a,b,c=10,20,30
+p,q,r = c-5,a+3,b-4
+print ‘a,b,c:’,a,b,c,
+print ‘p,q,r:’,p,q,r
+7. x=29.0
+    y=13
+    z=2
+    print(not(x>y or y>z) )
+    print(str((5<10) and (10<5) or (3<18) and not 8<18))
+
+8. print(4 * len(“problem1”) / (len(“python”)%4) +2.0)
+    print(-4 * -2 **3 +len(str(6)))
+
