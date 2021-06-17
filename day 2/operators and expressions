@@ -1,0 +1,32 @@
+Python Operators-
+•	Arithmetic operators
+•	Assignment Operators   
+•	Comparison operators
+•	Logical Operators
+
+Operator Precedence
+**	 exponent 
+* / % //	 multiplication, divide, modules, reminder, and floor division.
+<= < > >= == !=	Relational
+= %= /= //= -= += *= **=	Assignment operators
+Not	Logical operators
+And	
+Or	
+
+Expressions-
+
+1.	Guess the output: True or True and False.
+2.	Guess the output: True and False or True.
+ 
+3.	Guess output: not False and False.
+4.	Guess the output: True and True and (not False)
+5.	Guess the output: True and True or (not False)
+6.	Guess the output: (True and False) and (not False) or True
+7.	Guess the output: (True and False) and ((not False) or True)
+
+
+What will be the output of the following 
+(a)12/4 (b)14//14 (c)14%4 (d) 14.0/4 (e) 14.0//4 (f)14.0%4
+What is the output-
+(a)87//5 (b)(87//5.0) == (87//5) (c) 87//5.0 (d) 17%5.0
+
