@@ -1,0 +1,30 @@
+#write a program to find area & perimeter of a rectangle and area and circumference of a circle.  
+#Perimeter of rectangle print('This program is for the perimeter of a rectangle') 
+l=int(input('Enter Length')) 
+b=int(input('Enter Width')) 
+print('The Perimeter of Rectangle is', 2*(l+b))  
+
+#Area of Rectangle print('This program is for the area of a rectangle') 
+l=int(input('Enter Length')) 
+b=int(input('Enter Width')) print('The area of Rectangle is', l*b)  
+
+#Circumference of Circle print('This program is for the circumference of a Circle')
+r=float(input('enter Radius')) 
+print('The circumference of circle is', 2 * 3.14 * r)  
+
+#Area of Circle print('This program is for the area of a Circle')
+r=float(input('enter Radius')) 
+print('The area of circle is', 3.14 * r * r)
+
+#Write a program to input names and marks of maths of 2 students and swap their marks. 
+Std1name=input('enter Student 1 Name') 
+Std2name=input('enter Student 2 Name') 
+Std1mark=int(input('enter Student 1 Marks')) 
+Std2mark=int(input('enter Student 2 Marks')) 
+Std1mark,Std2mark=Std2mark,Std1mark 
+print(Std1name,"'s marks are", Std1mark) 
+print(Std2name,"'s marks are", Std2mark)
+
+Home work
+Q1. WAP to convert time (in seconds) taken from the user into hr,mm,sec.(%,/,//)
+Q2. WAP to calculate percentage of three students after taking the marks of three subjects out of 100.
