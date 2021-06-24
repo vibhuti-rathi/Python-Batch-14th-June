@@ -1,0 +1,65 @@
+#Q1.WAP to find the greater no. out of two numbers
+a=int(input("enter the no."))
+b=int(input("enter the no."))
+if(a>b):
+    print(a ,"is greater")
+else:
+    print(b," is greater")
+
+
+'''Q2. WAP to input marks in computer and then if marks are less than 33
+print the message "you have failed" otherwise print "you have passed". Also
+one statement at the end that "Exam is Over".'''
+
+marks=int(input("enter the no."))
+
+if(marks>33):
+    print("you are pass")
+    print("Enjoy your day")
+else:
+    print("you are fail")
+    print("try hard next time")
+print("Exam is over")
+
+'''
+Q3.
+marks       remark
+<33         Fail
+b/w 33-60   pass but satisfactory
+b/w 60-80  scored well
+>80         Excellent
+'''
+
+marks=int(input("enter the no."))
+if marks<33:
+    print("Fail")
+elif marks>33 and marks <60:
+    print("satisfactory")
+elif  60<=marks<80:
+    print("scored well")
+else:
+    print("you are fail")
+    print("try hard next time")
+
+'''Q4. input a number from the user and check whether the no.
+is positive or negative'''
+
+n1=int(input("enter the no."))
+if n1>0:
+    print("no. is positive")
+elif n1==0:
+    print("no. is zero")
+else:
+    print("no.is negative")
+
+'''Q5. input a number from the user and check whether the no.
+is even or odd'''
+
+n1=int(input("enter the no."))
+if n1%2==0:
+    print("no. is even")
+else:
+    print("no.is odd")
+
+
+    
