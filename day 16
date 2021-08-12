@@ -1,0 +1,63 @@
+'''data types- int , float, string, list
+immutable- the data types in which you cannot make changes at the same place/location
+int, float, string
+mutable- make changes- list
+string
+a="python"
+index
+a[0]
+
+two ways of indexing-
+forward indexing
+backward indexing
+
+
+ch=input("enter the text")
+for i in range(len(ch)):
+    print(ch[i])
+
+operators-
+s="python "
+s1="CLASS"
+print(s +s1)
+
+print(s*3)
+print(s.upper())
+print(s1.lower())
+
+string slicing-
+
+
+
+list
+indexing- starts from 0
+'''
+ln= [4,7,"hello",67,89,90,9]
+for i in range(len(ln)):
+    print(ln[i])
+    
+'''
+
+#take the data from the user into the list
+l=[]
+for i in range(5):
+    n=int(input("enter the number"))
+    l.append(n)
+print(l)
+
+'''
+2-D list/array(list within list)
+ch=[1,2,3,[4,7,9],78,90,["a","b","c"],6,8]
+
+ch[6][2]=56
+
+next-
+start project
+tic tac toe
+1. proceed- list, functions, access the elements , 2-d list,
+
+2-d list
+a= [[1,2,3],[4,5,6],[7,8,9]]
+
+
+
