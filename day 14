@@ -1,0 +1,55 @@
+'''Function- any specific task if you want to perform
+random- in- builts
+user defined functions
+
+def pr(a,b):  #parameter/argument  header of the function
+    return(a*b)
+print(pr(1,2))
+
+result=pr(35,6)
+print(result)
+
+
+#function to check no. is even or odd
+def check_num(num):
+    if num%2==0:
+        return "even"
+    else:
+        return "odd"
+num=int(input("enter the nu."))
+res=check_num(num)
+print(res)
+
+
+#no. is divisible by 5- pass one argument
+#check the divisibility of any number by another number- 2
+
+def trial(a,b=6,c=4):
+    return a,b,c
+s,t,p=trial(1,2,3)
+#t=trial(2,3)
+#p=trial(1)
+print(p)
+
+#to calculate simple interest using functions-
+Interest= (P* r*t)/100  default time is 2 years
+
+#to print the table of 5,6,7 using loops in function
+table(n)- loop
+calling(3 times)-5,6,7
+
+
+'''
+import random
+random.randint()
+
+
+
+
+
+
+
+
+
+
+
