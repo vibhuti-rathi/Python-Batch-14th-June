@@ -1,0 +1,138 @@
+'''
+def table(x):
+    for i in range(1,11):
+        res= x*i
+        print(res)
+table(5)
+table(6)
+table(7)
+
+
+scope of variables
+local var
+global var
+
+x=10
+print(x)
+print("good day")
+print(x)
+def pr():
+    y=5
+    print(x)
+    print(y)
+    pr1()
+    print("hello")
+    print("bye")
+def pr1():
+    z=7
+    print(x)
+    print(z)
+
+pr()
+
+'''
+#to make a simple calculator- Menu driven program
+def add(x,y):
+    return x+y
+def substract(x,y):
+    return x-y
+def multiply(x,y):
+    return x*y
+def divide(x,y):
+    return x/y
+ch='y'
+while ch=='y':
+    print("Select operation:")
+    print("1:ADD")
+    print("2:Substract")
+    print("3:Multiply")
+    print("4:Divide")
+    choice= int(input("Enter the chice from 1-4:"))
+    num1= int(input("Enter the first num"))
+    num2= int(input("Enter the first num"))
+    if choice==1:
+        print("the sum is ",add(num1,num2))
+    elif choice==2:
+        print("the substraction is ",substract(num1,num2))
+    elif choice==3:
+        print("the multiplication is ",multiply(num1,num2))
+    elif choice==4:
+        print("the division is ",divide(num1,num2))
+    else:
+        print("invalid choice")
+    ch=input("do you want to roll again- y/n")
+'''
+#dice rolling
+import random
+start =input("press enter to roll the dice")
+
+def dice():
+    di=random.randint(1,6)
+    return di
+
+print("the number on the dice is ",dice())
+
+while True:
+    roll_again= input("do you want to roll again- y/n")
+    if roll_again== "y":
+        print("the number on the dice is ",dice())
+    else:
+        print("thanks for playing")
+        break
+
+we have the numbers from 1-n
+we have to display the text given or the no. itself based on some conditions-
+- if number is divisible by 3 and 5 both then print "FizzBuzz"
+- if number is divisible by 3 then print "Fizz"
+-if number is divisible by 5 then print "Buzz"
+-otherwise print the number
+
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
