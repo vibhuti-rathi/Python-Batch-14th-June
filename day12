@@ -1,0 +1,100 @@
+'''
+*
+**
+***
+
+***
+**
+*
+
+1
+12
+123
+1234
+
+
+
+1
+22
+333
+4444
+
+4444
+333
+22
+1
+
+ascii values- A 65
+A
+AB
+ABC
+
+ABC
+AB
+A
+
+A
+BB
+CCC
+
+AAA
+BB
+C
+
+#nested loops- one loop inside another
+n=int(input("enter the number of rows"))
+for i in range(65,65-n,-1):
+    for j in range(65,i+1):
+        print(chr(j),end="")
+    print()
+
+
+i-1-3
+dry run-
+i- 1
+j-0  print- 1,0
+  1         1,1
+  2         1,2
+  bye
+
+i=2
+j- 0 print 2,0
+j=1  print 2,1
+j=2  print 2,2
+bye
+
+
+i=3
+j=0 print 3,0
+j=1 print 3,1
+j=2 print 3,2
+print bye
+
+i=4
+
+'''
+import turtle
+my= turtle.Turtle()
+my.forward(100)
+my.left(90)
+my.forward(100)
+my.right(50)
+my.forward(100)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
